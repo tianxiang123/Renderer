@@ -156,12 +156,14 @@
     <ClInclude Include="F:\TX\tinyrenderer-master\tinyrenderer-master\tgaimage.h" />
     <ClInclude Include="geometry.h" />
     <ClInclude Include="model.h" />
+    <ClInclude Include="our_gl.h" />
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="F:\TX\tinyrenderer-master\tinyrenderer-master\tgaimage.cpp" />
     <ClCompile Include="geometry.cpp" />
     <ClCompile Include="model.cpp" />
+    <ClCompile Include="our_gl.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
